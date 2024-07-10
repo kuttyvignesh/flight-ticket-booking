@@ -1,0 +1,717 @@
+<html>
+	<head>
+		<title> Air Trip </title>
+		  <meta charset="utf-8">
+		  <meta name="viewport" content="width=device-width, initial-scale=1">
+		  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+		  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+		  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+		  <link rel="stylesheet" href="style.css" type="text/css">
+
+	</head>
+	<body>
+		
+			<nav class="navbar menus ">
+			  <div class="container-fluid">
+				<div class="navbar-header navbar-inverse">
+				  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+				  </button>
+				   
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+				  <ul class="nav navbar-nav">
+					<li><img src= "D:\Air Trip\images\air-trip-logo.png" height="150" width="150"></li>
+					<li class="dropdown menu-1">
+					  <a  href="#" data-toggle="modal" data-target="#myModal-1"><b>Book & Prepare </b></a>	
+					</li>
+					<li class="menu-1"> <a  href="#" data-toggle="modal" data-target="#myModal-2"><b>My booking</b></a></li>
+					<li class="menu-1"><a   href="#" data-toggle="modal" data-target="#myModal-3"><b>Discover Lufthansa</b></a></li>
+				  </ul>
+				  <ul class="nav navbar-nav navbar-right ">
+					<li ><span class="glyphicon glyphicon glyphicon-user menu-2"><a  href="#" data-toggle="modal" data-target="#myModal-4"><span class="menu-login"> Login & Registraion</span></a></span></li>
+					<li ><span class="glyphicon glyphicon glyphicon-comment menu-2" ><a href="#" target="blank" ><span class="menu-login">Help</span></a></span></li>
+				  </ul>
+				</div>
+			  </div>
+			</nav>
+		
+			 
+			  <!-- Modal -->
+			<div class="modal fade " id="myModal-1" role="dialog">
+				<div class="modal-dialog ">
+				  <!-- Modal content-->
+				  <div class="modal-content booking-tab">
+					<div class=" modal-box-head">
+					 
+					  <h4 class="modal-title booking-head">Flights</h4>
+					</div>
+					<div class="modal-body  booking-tab">
+					  <a href="#" class=" booking-tab" ><p>Book flights</a><br> <a href="#"class=" booking-tab">Offers & destinations</a><br> <a href="#"class=" booking-tab">Baggage</a><br> <a href="#"class=" booking-tab">Group travel & Charter</a><br> <a href="#"class=" booking-tab">Book more sustainably</p></a>
+					</div>
+					
+				  </div>
+				</div>
+			</div>
+			  <!-- Modal -->
+			  
+			  <!-- Modal -->
+			<div class="modal fade" id="myModal-2" role="dialog">
+				<div class="modal-dialog">
+				  <!-- Modal content-->
+				  <div class="modal-content">
+					<div class=" modal-box-head">
+					 
+					  <h4 class="modal-title  booking-head">Manage</h4>
+					</div>
+					<div class="modal-body  modal-box-head">
+					  <a href="#"class=" booking-tab"><p>Check-in</a><br> <a href="#"class=" booking-tab">Flight status</a><br> <a href="#"class=" booking-tab">Manage bookings</a><br> <a href="#"class=" booking-tab">Seat reservation</a><br> <a href="#"class=" booking-tab">Rebook</a><br> <a href="#"class=" booking-tab">Cancellation & refund</a><br> <a href="#"class=" booking-tab">Passenger Receipt</a><br> <a href="#"class=" booking-tab">Delayed & damaged baggage</p></a>
+					</div>
+					
+				  </div>
+				</div>
+			</div>
+			  <!-- Modal -->
+				<!-- Modal -->
+			<div class="modal fade" id="myModal-3" role="dialog">
+				<div class="modal-dialog">
+				  <!-- Modal content-->
+				  <div class="modal-content">
+					<div class=" modal-box-head">
+					  
+					  <h4 class="modal-title  booking-head">Travel classes</h4>
+					</div>
+					<div class="modal-body  modal-box-head">
+					  <a href="#"class=" booking-tab"><p>Economy Class</a><br> <a href="#"class=" booking-tab">Premium Economy Class</a><br> <a href="#"class=" booking-tab">Business Class</a><br> <a href="#"class=" booking-tab">First Class</a><br> <a href="#"class=" booking-tab">Lufthansa Allegris</a><br> <a href="#"class=" booking-tab">Fleet</p></a>
+					</div>
+					
+				  </div>
+				</div>
+			</div>
+			  <!-- Modal -->
+						<!-- Modal -->
+			<div class="modal fade" id="myModal-4" role="dialog">
+				<div class="modal-dialog ">
+				  <!-- Modal content-->
+				  <div class="modal-content ">
+					
+					<div class="modal-body  modal-box-head login-bg">
+						 <form class="form-horizontal">
+							<div class="form-group ">
+							  <label class="control-label col-sm-2" for="email">Email:</label>
+							  <div class="col-sm-10">
+								<input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+							  </div>
+							</div>
+							<div class="form-group">
+							  <label class="control-label col-sm-2" for="pwd">Password:</label>
+							  <div class="col-sm-10">          
+								<input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd">
+							  </div>
+							</div>
+							<div class="form-group">        
+							  <div class="col-sm-offset-2 col-sm-6">
+								<div class="checkbox">
+								  <label><input type="checkbox" name="remember"> Remember me</label>
+								</div>
+							  </div>
+							</div>
+							<div class="form-group">        
+							  <div class="col-sm-offset-2 col-sm-10">
+								<button type="submit" class="buton-submit">Submit</button>
+							  </div>
+							</div>
+						</form>
+
+					</div>
+					
+				  </div>
+				</div>
+			</div>
+			  <!-- Modal -->
+
+			<section>
+				<div class="img">
+					<img src="https://www.lufthansa.com/content/dam/lh/images/local_images/homepage/stage-teasers/borabora_desktop_1295228783_1440x500.png.transform/lh-dcep-transform-width-1440/img.jpg" class="img-responsive">
+				</div>
+			
+					
+
+			</section>
+		<div class="ticket-booking">
+			<nav class="navbar navbar-default ticket-booking-1">
+			  <div class="container-fluid 	">
+				
+				<ul class="nav navbar-nav">
+				  
+				  <li class="travel-packages "><a  href="#"class="active ticket-booking-1"><span class="glyphicon glyphicon glyphicon-plane">Flights</span></a></li>
+				  <li class="travel-packages "><a href="#"class=" ticket-booking-1" ><span class="glyphicon glyphicon glyphicon-vehicle">Rental Car</span></a></li>
+				  <li class="travel-packages "><a href="#"class=" ticket-booking-1"><span class="glyphicon glyphicon glyphicon-bed">Hotel</span></a></li>
+				</ul>
+			  </div>
+			</nav>
+			<nav class="navbar navbar-default">
+					<div class="container-fluid ">
+						
+						<ul class="nav navbar-nav ticket-booking-1">
+						  
+									<li class="dropdown">
+										<a class="dropdown-toggle ticket-booking-1" data-toggle="dropdown" href="#">Round Trip </a>
+										<ul class="dropdown-menu">
+											<li><a href="#">Round Trip</a></li>
+											<li><a href="#" class="active">One-Way </a></li>
+											<li><a href="#">Multi-city</a></li>
+										</ul>
+									</li>
+						  <li><a href="#"data-toggle="modal" data-target="#myModal-5"class=" ticket-booking-1">Economy, 1 traveller</a></li>
+						  <li><a href="#"><label class=" ticket-booking-1"><input type="checkbox" name="remember"> Nonstop Only</label></a></li>
+						</ul>
+					</div>
+			</nav>
+					<!-- Modal -->
+			<div class="modal fade" id="myModal-5" role="dialog">
+				<div class="modal-dialog">
+				  <!-- Modal content-->
+				  <div class="modal-content">
+					<div class=" modal-box-head">
+					  
+					  <h4 class="modal-title">Travel Details</h4>
+					</div>
+					<div class="modal-body">
+					  <p>travel class<br> 
+					  <li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown"  href="#">Economy</a>
+						<ul class="dropdown-menu">
+											<li><a href="#" class="active">Economy</a></li>
+											<li><a href="#" >Premium Economy</a></li>
+											<li><a href="#">Business</a></li>
+										</ul>
+									</li>
+						<form class="form-horizontal">
+							<div class="form-group ">
+							  <label class="control-label col-sm-2" for="number">Adults</label>
+							  <div class="col-sm-10">
+								<input type="number" class="form-control" id="number"  >
+							  </div>
+							</div>
+							<div class="form-group ">
+							  <label class="control-label col-sm-2" for="number">Children</label>
+							  <div class="col-sm-10">
+								<input type="number" class="form-control" id="number"  >
+							  </div>
+							</div>
+							<div class="form-group ">
+							  <label class="control-label col-sm-2" for="number">Infants</label>
+							  <div class="col-sm-10">
+								<input type="number" class="form-control" id="number"  >
+							  </div>
+							</div>
+							<div class="form-group">        
+							  <div class="col-sm-offset-2 col-sm-10">
+								<button type="submit" class="btn btn-default">Contiue</button>
+							  </div>
+							</div>
+						</form>	
+						</div>
+					
+				  </div>
+				</div>
+			</div>
+			  <!-- Modal -->
+			
+				<form class="form-inline">
+							<div class="form-group ">
+							  <label class="control-label col-sm-2" for="number">From</label>
+							  <div class="col-sm-10">
+								<input type="text" class="form-control" id="text"  >
+							  </div>
+							</div>
+							<div class="form-group ">
+							  <label class="control-label col-sm-2" for="text">To</label>
+							  <div class="col-sm-10">
+								<input type="text" class="form-control" id="text"  >
+							  </div>
+							</div>
+							
+							<div class="form-group">        
+							  <div class="col-sm-offset-2 col-sm-10">
+								<button type="submit" class="btn btn-search">Search Flights</button>
+							  </div>
+							</div>
+						</form>	
+		</div>
+				<br>	<br>	<br>	<br>
+		<section>
+						
+			<nav class="navbar ">
+				<div class="container-fluid">
+					<div class="navbar-header">
+					  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>                        
+					  </button>
+				
+					</div>
+					<div class="collapse navbar-collapse" id="myNavbar">
+						<ul class="nav navbar-nav">
+						
+							<li class="dropdown Check-in">
+								<a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon glyphicon-check Check-in-menu">Check-in</span> </a>
+								<ul class="dropdown-menu Check-in-box">
+									<p>Log in for check-in</p>
+									<form class="form-horizontal ">
+										<div class="form-group ">
+										
+										  <div class="col-sm-10">
+											<input type="text" class="form-control" id="text"  placeholder="Booking code or ticket no." >
+										  </div>
+										</div>
+										<div class="form-group ">
+										 
+										  <div class="col-sm-10">
+											<input type="text" class="form-control" id="text" placeholder="First name (as per booking)" >
+										  </div>
+										</div>
+										<div class="form-group ">
+										 
+										  <div class="col-sm-10">
+											<input type="text" class="form-control" id="text" placeholder="Last name (as per booking)" >
+										  </div>
+										</div>
+										<div class="form-group">        
+										  <div class="col-sm-offset-2 col-sm-10">
+											<button type="submit" class="buton-Check-in">Check-in</button>
+										  </div>
+										</div>
+									</form>	
+								</ul>
+							</li>
+
+						
+						<li class="dropdown  Check-in">
+						  <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon glyphicon-ok-circle Check-in-menu">Flight-Status</span></a>
+						 <ul class="dropdown-menu Check-in-box">
+							<p>Airline</p>
+							<form class="form-horizontal">
+								<div class="form-group ">
+								
+								  <div class="col-sm-10">
+									<input type="number" class="form-control" id="number"  placeholder="Flight Number" >
+								  </div>
+								</div>
+								<div class="form-group ">
+								 
+								  <div class="col-sm-10">
+									<input type="date" class="form-control" id="date" placeholder="Date" >
+								  </div>
+								</div>
+								
+								<div class="form-group">        
+								  <div class="col-sm-offset-2 col-sm-10">
+									<button type="submit" class="buton-Check-in">Find</button>
+								  </div>
+								</div>
+							</form>	
+						  </ul>
+						</li>
+
+
+
+						
+						<li class="dropdown  Check-in">
+						  <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon glyphicon-bookmark Check-in-menu">My Bookings </span> </a>
+						  <ul class="dropdown-menu Check-in-box">
+							<p>Log in to see all your bookings </p>
+							<form class="form-horizontal">
+								<div class="form-group ">
+								
+								  <div class="col-sm-10">
+									<input type="text" class="form-control" id="text"  placeholder="Booking Code" >
+								  </div>
+								</div>
+								<div class="form-group ">
+								 
+								  <div class="col-sm-10">
+									<input type="text" class="form-control" id="text" placeholder="Last Name" >
+								  </div>
+								</div>
+								 
+								<div class="form-group">        
+								  <div class="col-sm-offset-2 col-sm-10">
+									<button type="submit" class="buton-Check-in">Find Booking</button>
+								  </div>
+								</div>
+							</form>	
+						  </ul>
+						</li>
+							
+						<li class="dropdown  Check-in">
+						  <a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon glyphicon-credit-card Check-in-menu">Miles & More </span></a>
+						  <ul class="dropdown-menu Check-in-box">
+							<p>Log in with your Miles & More login data.</p>
+							<form class="form-horizontal">
+								<div class="form-group">        
+								  <div class="col-sm-offset-2 col-sm-10">
+									<button type="submit" class="buton-Check-in">Log-in</button>
+								  </div>
+								</div>
+							</form>	
+						</ul>
+						</li>
+
+					</div>
+				</div>
+			</nav>
+
+		
+		
+		</section>
+		<section>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<div class="destination">
+							<img src="D:\Air Trip\images\image-1.jpg">
+						</div>
+						<div Class="destination-text">
+							<h3> New Destinations from India</h3><h2>Bangalore and Hyderabad</h2></b>
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<div class="destination">
+							<img src="D:\Air Trip\images\image-2.jpg">
+						</div>
+						<div Class="destination-text">
+							 <h3>Inspiration</h3> <h2> Discover Born Voyage Insights</h2>
+						</div>
+					</div>
+				</div>
+		
+			
+			</div>
+		</section>
+		<br><br><br><br><br><br><br>
+		<section>
+			<div class="container-fluid">
+				<h2><b>Discover further topics</b></h2>
+			</div>
+		</section>
+		<br>
+		<section>
+			<div class="container-fluid ">
+				<div class="row ">
+					<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 offer">
+						<a href="file:///D:/Air%20Trip/Travel%20ID.html" target="blank">
+						<img src="D:\Air Trip\images\caller id.jpg">
+						<p class="offer-1"><b>Travel ID </b><br>Unlimited access to Lufthansa Group Airlines and Miles & More.<br></p></a>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 offer">
+						<a href="file:///D:/Air%20Trip/cash%20&%20miles.html" target="blank">
+						<img src="D:\Air Trip\images\cash @miles.jpg">
+						<p class="offer-2"><b>Cash & Miles</b><br>Redeem your miles flexibly for flights to your dream destination.</p></a>
+					</div>
+			
+					<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 offer">	
+						<a href="file:///D:/Air%20Trip/rental-car.html" target="blank">
+						<img src="D:\Air Trip\images\rental car.jpg">
+						<p class="offer-3"><b>Rental Car Offers</b><br>Get exclusive benefits with our partners this June.</p></a>
+					</div>
+					<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 offer">
+					<a href="file:///D:/Air%20Trip/student%20travels.html" target="blank">
+						<img src="D:\Air Trip\images\student offer.jpg">
+						<p class="offer-4"><b>Student Offer</b><br>Enjoy free additional check-in baggage and extra savings with our Student fares.</p></a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<br><br>
+		<section>
+			<div class="container">
+				<div class="row">
+					
+						<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+							<div class="additional">
+								<h3> <span class="glyphicon glyphicon glyphicon-user"><b>Your rental car</b></h3><br><p>As a Lufthansa customer, enjoy exclusive benefits with our partners.</p>
+							</div>
+					
+						</div>
+				
+						<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+							<div class="additional">
+								<h3>	 <span class="glyphicon glyphicon glyphicon-plus-sign"><b>Aditional services</b></h3><br></p>Make your journey even more comfortable with our additional services.</p>
+							</div>
+						</div>
+					
+					<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+						<div class="additional">
+							<h3> <span class="glyphicon glyphicon-bed"><b>Your hotel from Booking.com</b></h3><br></p>Our hotel partner offers you a range of accommodation worldwide at the best price.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section><br><br>
+		
+			<nav class="navbar ">
+				<div class="container">
+					<div class="navbar-header">
+					  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>                        
+					  </button>
+				
+					</div>
+					<div class="collapse navbar-collapse" id="myNavbar">
+						<ul class="nav navbar-nav">
+						
+							<li class="dropdown recom " >
+								<a class="dropdown-toggle" data-toggle="dropdown" href="#" class="active">Recommendations</a>
+							</li>
+							<li class="dropdown recom ">
+								<a class="dropdown-toggle" data-toggle="dropdown" href="#">Bestsellers</a>
+							</li>
+							<li class="dropdown recom">
+								<a class="dropdown-toggle" data-toggle="dropdown" href="#">favourites</a>
+							</li>
+			
+		
+					</div>
+				</div>
+			</nav>
+			<hr>
+			<section>
+			<div class="container">
+				  
+				  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+					<!-- Indicators -->
+					<ol class="carousel-indicators">
+					  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					  <li data-target="#myCarousel" data-slide-to="1"></li>
+					  <li data-target="#myCarousel" data-slide-to="2"></li>
+					</ol>
+
+					<!-- Wrapper for slides -->
+					<div class="carousel-inner">
+
+						<div class="item active">
+
+							<div class="container">
+								<div class="row">
+									<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 rate">
+										<a href="#" target="blank">
+										<img src="D:\Air Trip\images\frame-1-1.png">
+										<h3>Frankfurt</h3>
+										<p  class="from ">from</p><p class="from-1 rate">₹63,238<span  class="sup">*</span></a>
+									</div>
+									<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 rate">
+									<a href="#" target="blank">
+										<img src="D:\Air Trip\images\frame-1-2.png">
+											<h3>Toronto</h3>
+										<p  class="from rate">from</p><p class="from-1 rate">₹99,500<span  class="sup">*</span></a>
+									</div>
+							
+									<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 rate">
+									<a href="#" target="blank">
+										<img src="D:\Air Trip\images\frame-1-3.png">
+											<h3>Zurich</h3>
+										<p  class="from">from</p><p class="from-1 rate">₹59,587<span  class="sup">*</span></a>
+									</div>
+								</div>
+							</div>
+						</div>
+					
+					<div class="item">
+						<div class="container">
+									<div class="row">
+										<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 rate">
+										<a href="#" target="blank">
+											<img src="D:\Air Trip\images\frame-2-1.png">
+												<h3>Munich</h3>
+										<p  class="from">from</p><p class="from-1 rate">₹57,278<span  class="sup">*</span></a>
+										</div>
+										<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 rate">
+										<a href="#" target="blank">
+											<img src="D:\Air Trip\images\frame-2-2.png">
+												<h3>Vancouver</h3>
+										<p  class="from">from</p><p class="from-1 rate">₹88290<span  class="sup">*</span></a>
+										</div>
+								
+										<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 rate">
+										<a href="#" target="blank">
+											<img src="D:\Air Trip\images\frame-2-3.png">
+												<h3>New York</h3>
+										<p  class="from">from</p><p class="from-1 rate">₹74,777<span  class="sup">*</span></a>
+										</div>
+									</div>
+						</div>
+					</div>	
+					<div class="item">
+						<div class="container">
+									<div class="row">
+										<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 rate">
+										<a href="#" target="blank">
+											<img src="D:\Air Trip\images\frame-3-1.png">
+												<h3>Paris</h3>
+										<p  class="from">from</p><p class="from-1 rate">₹83,248<span  class="sup">*</span></a>
+										</div>
+										<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 rate">
+										<a href="#" target="blank">
+											<img src="D:\Air Trip\images\frame-3-2.png">
+												<h3>Tokyo, Japan</h3>
+										<p  class="from">from</p><p class="from-1 rate">₹83,432<span  class="sup">*</span></a>
+										</div>
+								
+										<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 rate">
+										<a href="#" target="blank">
+											<img src="D:\Air Trip\images\frame-3-3.png">
+												<h3>Hong Kong</h3>
+										<p  class="from">from</p><p class="from-1 rate">₹71,555<span  class="sup">*</span></a>
+										</div>
+									</div>
+						</div>
+					</div>			
+				</div>
+						<!-- Left and right controls -->
+					<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+					  <span class="glyphicon glyphicon-chevron-left"></span>
+					  <span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#myCarousel" data-slide="next">
+					  <span class="glyphicon glyphicon-chevron-right"></span>
+					  <span class="sr-only">Next</span>
+					</a>
+				</div>
+			</div>
+			<h4>*The prices incl. all taxes, fees, carrier surcharges may vary and serve as a guide for your selection.</h4>
+			<nav class="navbar condition">
+			  <div class="container-fluid">
+				<div class="navbar-header">
+				  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>                        
+				  </button>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+				  <ul class="nav navbar-nav">
+				
+					<li class="dropdown  ">
+					  <a  href="#" data-toggle="modal" data-target="#myModal-6" class="Conditions "><h3>Terms And Conditions </h3> </a>	
+					</li>
+				  </ul>
+
+				</div>
+			  </div>
+			</nav>
+			 <!-- Modal -->
+			<div class="modal fade " id="myModal-6" role="dialog">
+				<div class="modal-dialog ">
+				  <!-- Modal content-->
+				  <div class="modal-content">
+					<div class=" modal-box-head">
+					 
+					  <h4 class="modal-title booking-head">General conditions</h4>
+					</div>
+					<div class="modal-body  ">
+					<p>The prices displayed may vary and should serve as a guide for your selected journey. The prices apply to round or one way trips according to your selection. The end price is subject to change depending on the selected payment option. Seats are limited and may not be available on all days/flights. The fare might only be available during a special travel time and might not be available during holidays or other peak seasons. Fares include applicable fees, taxes and airport charges. Baggage might not be included in the end price. Additional baggage fees may apply. The fare might not be refundable or changeable. Minimum stay/maximum stay and/or advanced purchase might apply.</p>
+					</div>
+					
+				  </div>
+				</div>
+			</div>
+			  <!-- Modal -->
+			  <br>
+			  <div class="container">
+				<div class="row">
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<div class="sub-img">
+							<img src="D:\Air Trip\images\subscribe.jpg">
+						</div>
+					</div>
+					<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+						<div class="lasttext">
+						<h1><b>Push notifications</h1> <br><h4>Sign up for browser push notifications from the Lufthansa Group now and be informed about the latest offers and promotions.</h4> </b> <br><button type="submit" class="btn btn-sub">subscribe</button><p><br>By selecting Subscribe, you agree to us collecting your browser data to show you relevant offers based on your browser history. If you change your mind, you can deactivate these notifications in your browser settings at any time.</p>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<div class="container">
+												<div class="row">
+												<h3>Payment Options</h3>
+													<div class="col-lg-1 col-md-2 col-sm-12 col-xs-12">
+													<a href="#" target="blank">
+														<img src="D:\Air Trip\images\visa.png"></a>
+													</div>
+													<div class="col-lg-1 col-md-3 col-sm-12 col-xs-12">
+													<a href="#" target="blank">
+														<img src="D:\Air Trip\images\rupay.png"></a>
+													</div>
+													<div class="col-lg-1 col-md-3 col-sm-12 col-xs-12">
+													<a href="#" target="blank">
+														<img src="D:\Air Trip\images\American-Express-logo.png"></a>
+													</div>
+													<div class="col-lg-2 col-md-4 col-sm-12 col-xs-12">
+													<a href="#" target="blank">
+														<img src="D:\Air Trip\images\Mastercard-Logo.png"></a>
+															
+													</div>
+												</div>
+							</div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+							<div class="container-fluid">
+													<div class="row">
+													<h3>Follow Us</h3>
+														<div class="col-lg-1 col-md-2 col-sm-12 col-xs-12">
+														<a href="#" target="blank">
+															<img src="D:\Air Trip\images\fb.jfif"></a>
+														</div>
+														<div class="col-lg-1 col-md-3 col-sm-12 col-xs-12">
+														<a href="#" target="blank">
+															<img src="D:\Air Trip\images\instagram.jfif"></a>
+														</div>
+														<div class="col-lg-1 col-md-3 col-sm-12 col-xs-12">
+														<a href="#" target="blank">
+															<img src="D:\Air Trip\images\youtube.jpg"></a>
+														</div>
+														<div class="col-lg-2 col-md-4 col-sm-12 col-xs-12">
+														<a href="#" target="blank">
+															<img src="D:\Air Trip\images\twitter.png"></a>
+																
+														</div>
+													</div>
+							</div>
+						</div>
+				</div>
+			</div>
+			<br><br>
+		<section >
+			<div class="last-bg">
+				<div class="container-fluid">
+					<div class="row last-bg-1">
+						<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+							<h3 class="last-bg-1">Frequently visited pages </h3><br><p><a href="#" target="blank"class="last">View & amend flights</a><br><a href="#" target="blank"class="last">Offers & destinations</a><br><a href="#" target="blank"class="last">Baggage</a><br><a href="#" target="blank"class="last">Check-in</a><br><a href="#" target="blank"class="last">At the airport</a><br><a href="#" target="blank"class="last">Travel briefing</a><br><a href="#" target="blank"class="last">Destinations</a></p>
+						
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+							<p><h3 class="last-bg-1">Customer services</h3><br><p><a href="#" target="blank"class="last">Travel ID Account</a><br><a href="#" target="blank"class="last">Miles & More</a><br><a href="#" target="blank"class="last">Help & Contact</a><br><a href="#" target="blank"class="last">Feedback</a><br><a href="#" target="blank"class="last">Newsletter</a><br><a href="#" target="blank"class="last">Accessible travel</a></p>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+							<p><h3 class="last-bg-1">Lufthansa Group</h3><br><p><a href="#" target="blank"class="last">Jobs & careers</a><br><a href="#" target="blank"class="last">Aviation Group</a><br><a href="#" target="blank"class="last">Lufthansa Group Airlines</a><br><a href="#" target="blank"class="last">Press</a><br><a href="#" target="blank"class="last">Lufthansa partners</a><br><a href="#" target="blank"class="last">Sustainability</a></p>
+						</div>
+						<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+							<p><h3 class="last-bg-1">Corporate customers</h3><br><p><a href="#" target="blank"class="last">For travel agents</a><br><a href="#" target="blank"class="last">For corporate customers</a><br><a href="#" target="blank"class="last">Corporate bonus programme</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>

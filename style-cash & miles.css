@@ -1,0 +1,161 @@
+:root{
+	--color-right:#c21500;
+	--color-left:#ffb347;
+}
+.menus{	
+	background:linear-gradient(90deg, var(--color-right),var(--color-left)) !important;
+	color:white !important;
+	padding-right:30px;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.menu-1{
+	font-size:20px;
+}
+.menu-login{
+	color:white !important;
+}
+.btn-search{
+	border:1px solid white;
+	background-color:#B06AB3;
+	color:white;
+}
+.booking-tab{
+		background:linear-gradient(360deg,#6DD5FA 0, #FFFFFF 100%) !important;
+		text-align:center;
+		color:black !important;
+		font-size:20px;
+}
+.modal-box-head>a:hover{
+	text-decoration:none !important;
+	color:black !important;
+	background-color: inherit !important;
+	
+}
+.booking-head{
+	font-size:30px;
+}
+.buton-submit{
+	background:white;
+	color:#89216B;
+	border:1px solid #2196f3; 
+
+	border-radius:5px;
+	
+}
+.menu-2>a:hover{
+	text-decoration:none !important;
+	color:black !important;
+}
+.login-bg-border{
+	border:none;
+	border-radius:10px;
+}
+.login-bg{
+	background:linear-gradient(90deg, var(--color-right),var(--color-left)) !important;
+	color:white !important;
+	
+}
+
+.menus>a:hover{
+	text-decoration:none !important;
+	color:white;
+}
+.menu-0{
+	margin-top:10px;
+}
+.navbar-inverse{
+	background-color:inherit !important;
+}
+.menu-1 >a:hover{
+	background-color: inherit !important;
+	color:#fff;
+}
+.menu-1>a{
+	color:#fff !important;
+	padding-left:100px !important;
+}
+.modal-box-head{
+	text-align:left;
+}
+.points{
+	padding-left:60px;
+}
+.side-position{
+	    bottom: auto;
+        left: auto;
+        padding-left: 10px;
+        position: fixed;
+        right: 0;
+        top: 130px;
+        width: 25%;
+	
+}
+.box-border{
+	border-bottom:1px solid gray;
+}
+.search{
+	background:red;
+	border:1px solid black; 
+	box-shadow:0 2px 16px rbg(0 0 0 / 12%);
+	border-radius:5px;
+}
+.ticket-booking{
+	background-color:white;
+	border:1px solid ; 
+	box-shadow:gray 2px 2px 2px 2px;
+	border-radius:5px;
+	width:780px;
+	z-index:2;
+	color:black !important;
+	margin-left:30px;
+	margin-top:40px;
+}
+.ticket-booking-1{
+	color:black !important;
+}
+.ticket-booking:hover{
+	text-decoration:none !important;
+	color:black !important;
+
+}
+.travel-packages{
+	font-size:20px;
+}
+.buton-Search{
+    background:linear-gradient(360deg,  #fceabb 0, #f8b500  100%);
+	color:#89216B;
+	border:1px solid #2196f3; 
+	box-shadow:0 2px 16px rbg(0 0 0 / 12%);
+	border-radius:5px;
+
+}
+.caret-1{
+	padding-left:537px;
+}
+.caret-2{
+	padding-left:475px;
+}
+.caret-3{
+	padding-left:182px;
+}
+.caret-4{
+	padding-left:352px;
+}
+.last-caret{
+	padding-bottom:20px;
+	color:black !important;
+}
+.last-bg{
+	background:linear-gradient(90deg, var(--color-right),var(--color-left)) !important;
+	color:white;
+}
+.last{
+	text-decoration:none !important;
+	color:#fff !important;
+	font-size:15px;
+}
+.last-bg-1{
+
+	border-bottom:2px solid white;
+}

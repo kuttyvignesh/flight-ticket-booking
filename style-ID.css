@@ -1,0 +1,118 @@
+:root{
+	--color-right:#2c3e50;
+	--color-left:#bdc3c7;
+}
+.menus{	
+	background:linear-gradient(90deg, var(--color-right),var(--color-left)) !important;
+	color:white !important;
+	padding-right:30px;
+	padding-top:20px;
+	padding-bottom:20px;
+	
+}
+.menu-1{
+	font-size:20px;
+}
+.booking-tab{
+		background:linear-gradient(360deg,#6DD5FA 0, #FFFFFF 100%) !important;
+		text-align:center;
+		color:black !important;
+		font-size:20px;
+}
+.modal-box-head>a:hover{
+	text-decoration:none !important;
+	color:black !important;
+	
+}
+.booking-head{
+	font-size:30px;
+}
+.buton-submit{
+	background:white;
+	color:#89216B;
+	border:1px solid #2196f3; 
+
+	border-radius:5px;
+	
+}
+.menu-2>a:hover{
+	text-decoration:none !important;
+	color:white !important;
+}
+.menu-login{
+	color:white !important;
+}
+.navbar-inverse{
+	background-color:inherit !important;
+}
+.login-bg-border{
+	border:none;
+	border-radius:10px;
+}
+.login-bg{
+	background:linear-gradient(90deg, var(--color-right),var(--color-left)) !important;
+	color:white !important;
+	
+}
+
+.menus>a:hover{
+	text-decoration:none !important;
+	color:white;
+}
+.menu-0{
+	margin-top:10px;
+}
+.menu-1 >a:hover{
+	background-color: inherit !important;
+	color:#fff;
+}
+.menu-1>a{
+	color:#fff !important;
+	padding-left:100px !important;
+}
+.modal-box-head{
+	text-align:center;
+}
+.btn-reg{
+	background-color:#2c3e50 !important;
+	color:white;
+
+	border-radius:5px;
+	font-size:20px;
+	margin-left:100px;
+}
+.sms{
+	font-size:17px;
+	margin-top:50px;
+}
+.btn-sub{
+	background-color:#2c3e50;
+	color:white !important;
+	margin-left:500px;
+}
+.last-bg{
+	background:linear-gradient(90deg, var(--color-right),var(--color-left)) !important;
+	color:white;
+	margin-left:-110px;
+	margin-right:-100px;
+	margin-bottom:-100px;
+
+	
+}
+.last{
+	text-decoration:none !important;
+	color:#fff !important;
+	font-size:15px;
+	
+}
+.last-bg-1{
+
+	border-bottom:2px solid white;
+}
+.last-content{
+	padding-left:30px;
+}
+.last-content-1>a:hover{
+	text-decoration:none !important;
+	color:#fff !important;
+} 

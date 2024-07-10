@@ -1,0 +1,100 @@
+:root{
+	--color-right:#000046;
+	--color-left:#1CB5E0
+}
+.menus{	
+	background:linear-gradient(90deg, var(--color-right),var(--color-left)) !important;
+	color:white !important;
+	padding-right:30px;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.navbar-inverse{
+	background-color:inherit !important;
+}
+.menu-1{
+	font-size:20px;
+}
+.menu-login{
+	color:white !important;
+}
+.booking-tab{
+		background:linear-gradient(360deg,#6DD5FA 0, #FFFFFF 100%) !important;
+		text-align:center;
+		color:black !important;
+		font-size:20px;
+}
+.modal-box-head>a:hover{
+	text-decoration:none !important;
+	color:black !important;
+	background-color: inherit !important;
+	
+}
+.booking-head{
+	font-size:30px;
+}
+.buton-submit{
+	background:white;
+	color:#89216B;
+	border:1px solid #2196f3; 
+
+	border-radius:5px;
+	
+}
+.menu-2>a:hover{
+	text-decoration:none !important;
+	color:black !important;
+}
+.login-bg-border{
+	border:none;
+	border-radius:10px;
+}
+.login-bg{
+	background:linear-gradient(90deg, var(--color-right),var(--color-left)) !important;
+	color:white !important;
+	
+}
+
+.menus>a:hover{
+	text-decoration:none !important;
+	color:white;
+}
+.menu-0{
+	margin-top:10px;
+}
+.menu-1 >a:hover{
+	background-color: inherit !important;
+	color:#fff;
+}
+.menu-1>a{
+	color:#fff !important;
+	padding-left:100px !important;
+}
+.para{
+	padding-left:40px;
+}
+.sub-para{
+	padding-left:80px;
+}
+.buton-status{
+	background:white;
+	color:#89216B;
+	border:1px solid #2196f3; 
+	font-size:29px;
+	border-radius:5px;
+	
+}
+.last-bg{
+	background:linear-gradient(90deg, var(--color-right),var(--color-left)) !important;
+	color:white;
+	margin-top:50px;
+}
+.last{
+	text-decoration:none !important;
+	color:#fff !important;
+	font-size:15px;
+}
+.last-bg-1{
+
+	border-bottom:2px solid white;
+}
